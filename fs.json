@@ -108,7 +108,7 @@
                     }
                 },
                 "vm_count": 4,
-                "vm_size": "STANDARD_H16",
+                "vm_size": "STANDARD_F16s",
                 "vm_disk_map": {
                     "0": {
                         "disk_array": ["s50-disk0a","s50-disk1a","s50-disk2a","s50-disk3a","s50-disk4a","s50-disk5a","s50-disk6a","s50-disk7a","s50-disk8a","s50-disk9a","s50-disk10a","s50-disk11a","s50-disk12a","s50-disk13a","s50-disk14a","s50-disk15a","s50-disk16a","s50-disk17a","s50-disk18a","s50-disk19a","s50-disk20a","s50-disk21a","s50-disk22a","s50-disk23a","s50-disk24a","s50-disk25a","s50-disk26a","s50-disk27a","s50-disk28a","s50-disk29a","s50-disk30a","s50-disk31a","s50-disk32a","s50-disk33a","s50-disk34a","s50-disk35a","s50-disk36a","s50-disk37a","s50-disk38a","s50-disk39a","s50-disk40a","s50-disk41a","s50-disk42a","s50-disk43a","s50-disk44a","s50-disk45a","s50-disk46a","s50-disk47a","s50-disk48a","s50-disk49a","s50-disk50a","s50-disk51a","s50-disk52a","s50-disk53a","s50-disk54a","s50-disk55a","s50-disk56a","s50-disk57a","s50-disk58a","s50-disk59a","s50-disk60a"],
