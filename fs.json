@@ -1,0 +1,137 @@
+{
+    "remote_fs": {
+        "resource_group": "$rgname",
+        "location": "northcentralus",
+        "managed_disks": {
+            "premium": false,
+            "disk_size_gb": 4094,
+            "disk_names": [
+"s50-disk0a","s50-disk0b","s50-disk0c","s50-disk0d",
+"s50-disk1a","s50-disk1b","s50-disk1c","s50-disk1d",
+"s50-disk2a","s50-disk2b","s50-disk2c","s50-disk2d",
+"s50-disk3a","s50-disk3b","s50-disk3c","s50-disk3d",
+"s50-disk4a","s50-disk4b","s50-disk4c","s50-disk4d",
+"s50-disk5a","s50-disk5b","s50-disk5c","s50-disk5d",
+"s50-disk6a","s50-disk6b","s50-disk6c","s50-disk6d",
+"s50-disk7a","s50-disk7b","s50-disk7c","s50-disk7d",
+"s50-disk8a","s50-disk8b","s50-disk8c","s50-disk8d",
+"s50-disk9a","s50-disk9b","s50-disk9c","s50-disk9d",
+"s50-disk10a","s50-disk10b","s50-disk10c","s50-disk10d",
+"s50-disk11a","s50-disk11b","s50-disk11c","s50-disk11d",
+"s50-disk12a","s50-disk12b","s50-disk12c","s50-disk12d",
+"s50-disk13a","s50-disk13b","s50-disk13c","s50-disk13d",
+"s50-disk14a","s50-disk14b","s50-disk14c","s50-disk14d",
+"s50-disk15a","s50-disk15b","s50-disk15c","s50-disk15d",
+"s50-disk16a","s50-disk16b","s50-disk16c","s50-disk16d",
+"s50-disk17a","s50-disk17b","s50-disk17c","s50-disk17d",
+"s50-disk18a","s50-disk18b","s50-disk18c","s50-disk18d",
+"s50-disk19a","s50-disk19b","s50-disk19c","s50-disk19d",
+"s50-disk20a","s50-disk20b","s50-disk20c","s50-disk20d",
+"s50-disk21a","s50-disk21b","s50-disk21c","s50-disk21d",
+"s50-disk22a","s50-disk22b","s50-disk22c","s50-disk22d",
+"s50-disk23a","s50-disk23b","s50-disk23c","s50-disk23d",
+"s50-disk24a","s50-disk24b","s50-disk24c","s50-disk24d",
+"s50-disk25a","s50-disk25b","s50-disk25c","s50-disk25d",
+"s50-disk26a","s50-disk26b","s50-disk26c","s50-disk26d",
+"s50-disk27a","s50-disk27b","s50-disk27c","s50-disk27d",
+"s50-disk28a","s50-disk28b","s50-disk28c","s50-disk28d",
+"s50-disk29a","s50-disk29b","s50-disk29c","s50-disk29d",
+"s50-disk30a","s50-disk30b","s50-disk30c","s50-disk30d",
+"s50-disk31a","s50-disk31b","s50-disk31c","s50-disk31d",
+"s50-disk32a","s50-disk32b","s50-disk32c","s50-disk32d",
+"s50-disk33a","s50-disk33b","s50-disk33c","s50-disk33d",
+"s50-disk34a","s50-disk34b","s50-disk34c","s50-disk34d",
+"s50-disk35a","s50-disk35b","s50-disk35c","s50-disk35d",
+"s50-disk36a","s50-disk36b","s50-disk36c","s50-disk36d",
+"s50-disk37a","s50-disk37b","s50-disk37c","s50-disk37d",
+"s50-disk38a","s50-disk38b","s50-disk38c","s50-disk38d",
+"s50-disk39a","s50-disk39b","s50-disk39c","s50-disk39d",
+"s50-disk40a","s50-disk40b","s50-disk40c","s50-disk40d",
+"s50-disk41a","s50-disk41b","s50-disk41c","s50-disk41d",
+"s50-disk42a","s50-disk42b","s50-disk42c","s50-disk42d",
+"s50-disk43a","s50-disk43b","s50-disk43c","s50-disk43d",
+"s50-disk44a","s50-disk44b","s50-disk44c","s50-disk44d",
+"s50-disk45a","s50-disk45b","s50-disk45c","s50-disk45d",
+"s50-disk46a","s50-disk46b","s50-disk46c","s50-disk46d",
+"s50-disk47a","s50-disk47b","s50-disk47c","s50-disk47d",
+"s50-disk48a","s50-disk48b","s50-disk48c","s50-disk48d",
+"s50-disk49a","s50-disk49b","s50-disk49c","s50-disk49d",
+"s50-disk50a","s50-disk50b","s50-disk50c","s50-disk50d",
+"s50-disk51a","s50-disk51b","s50-disk51c","s50-disk51d",
+"s50-disk52a","s50-disk52b","s50-disk52c","s50-disk52d",
+"s50-disk53a","s50-disk53b","s50-disk53c","s50-disk53d",
+"s50-disk54a","s50-disk54b","s50-disk54c","s50-disk54d",
+"s50-disk55a","s50-disk55b","s50-disk55c","s50-disk55d",
+"s50-disk56a","s50-disk56b","s50-disk56c","s50-disk56d",
+"s50-disk57a","s50-disk57b","s50-disk57c","s50-disk57d",
+"s50-disk58a","s50-disk58b","s50-disk58c","s50-disk58d",
+"s50-disk59a","s50-disk59b","s50-disk59c","s50-disk59d",
+"s50-disk60a","s50-disk60b","s50-disk60c","s50-disk60d",
+"s50-disk61a","s50-disk61b","s50-disk61c","s50-disk61d",
+"s50-disk62a","s50-disk62b","s50-disk62c","s50-disk62d",
+"s50-disk63a","s50-disk63b","s50-disk63c","s50-disk63d"
+]
+        },
+        "storage_clusters": {
+            "mystoragecluster": {
+                "hostname_prefix": "$prefix",
+                "ssh": {
+                    "username": "shipyard"
+                },
+                "static_public_ip": false,
+                "virtual_network": {
+                    "name": "myvnet",
+                    "existing_ok": true,
+                    "address_space": "10.0.0.0/16",
+                    "subnet": {
+                        "name": "my-server-subnet",
+                        "address_prefix": "10.0.0.0/24"
+                    }
+                },
+                "network_security": {
+                    "ssh": ["*"]
+                },
+                "file_server": {
+                    "type": "glusterfs",
+                    "mountpoint": "/data",
+                    "mount_options": [
+                        "noatime",
+                        "nodiratime"
+                    ],
+                    "server_options": {
+                        "glusterfs": {
+                            "volume_name": "gv0",
+                            "volume_type": "distributed",
+                            "transport": "tcp",
+                            "performance.cache-size": "1 GB"
+                        }
+                    }
+                },
+                "vm_count": 4,
+                "vm_size": "STANDARD_H16",
+                "vm_disk_map": {
+                    "0": {
+                        "disk_array": ["s50-disk0a","s50-disk1a","s50-disk2a","s50-disk3a","s50-disk4a","s50-disk5a","s50-disk6a","s50-disk7a","s50-disk8a","s50-disk9a","s50-disk10a","s50-disk11a","s50-disk12a","s50-disk13a","s50-disk14a","s50-disk15a","s50-disk16a","s50-disk17a","s50-disk18a","s50-disk19a","s50-disk20a","s50-disk21a","s50-disk22a","s50-disk23a","s50-disk24a","s50-disk25a","s50-disk26a","s50-disk27a","s50-disk28a","s50-disk29a","s50-disk30a","s50-disk31a","s50-disk32a","s50-disk33a","s50-disk34a","s50-disk35a","s50-disk36a","s50-disk37a","s50-disk38a","s50-disk39a","s50-disk40a","s50-disk41a","s50-disk42a","s50-disk43a","s50-disk44a","s50-disk45a","s50-disk46a","s50-disk47a","s50-disk48a","s50-disk49a","s50-disk50a","s50-disk51a","s50-disk52a","s50-disk53a","s50-disk54a","s50-disk55a","s50-disk56a","s50-disk57a","s50-disk58a","s50-disk59a","s50-disk60a"],
+                        "filesystem": "btrfs",
+                        "raid_level": 0
+                    },
+                    "1": {
+                        "disk_array": ["s50-disk0b","s50-disk1b","s50-disk2b","s50-disk3b","s50-disk4b","s50-disk5b","s50-disk6b","s50-disk7b","s50-disk8b","s50-disk9b","s50-disk10b","s50-disk11b","s50-disk12b","s50-disk13b","s50-disk14b","s50-disk15b","s50-disk16b","s50-disk17b","s50-disk18b","s50-disk19b","s50-disk20b","s50-disk21b","s50-disk22b","s50-disk23b","s50-disk24b","s50-disk25b","s50-disk26b","s50-disk27b","s50-disk28b","s50-disk29b","s50-disk30b","s50-disk31b","s50-disk32b","s50-disk33b","s50-disk34b","s50-disk35b","s50-disk36b","s50-disk37b","s50-disk38b","s50-disk39b","s50-disk40b","s50-disk41b","s50-disk42b","s50-disk43b","s50-disk44b","s50-disk45b","s50-disk46b","s50-disk47b","s50-disk48b","s50-disk49b","s50-disk50b","s50-disk51b","s50-disk52b","s50-disk53b","s50-disk54b","s50-disk55b","s50-disk56b","s50-disk57b","s50-disk58b","s50-disk59b","s50-disk60b"],
+                        "filesystem": "btrfs",
+                        "raid_level": 0
+                    },
+                    "2": {
+                        "disk_array": ["s50-disk0c","s50-disk1c","s50-disk2c","s50-disk3c","s50-disk4c","s50-disk5c","s50-disk6c","s50-disk7c","s50-disk8c","s50-disk9c","s50-disk10c","s50-disk11c","s50-disk12c","s50-disk13c","s50-disk14c","s50-disk15c","s50-disk16c","s50-disk17c","s50-disk18c","s50-disk19c","s50-disk20c","s50-disk21c","s50-disk22c","s50-disk23c","s50-disk24c","s50-disk25c","s50-disk26c","s50-disk27c","s50-disk28c","s50-disk29c","s50-disk30c","s50-disk31c","s50-disk32c","s50-disk33c","s50-disk34c","s50-disk35c","s50-disk36c","s50-disk37c","s50-disk38c","s50-disk39c","s50-disk40c","s50-disk41c","s50-disk42c","s50-disk43c","s50-disk44c","s50-disk45c","s50-disk46c","s50-disk47c","s50-disk48c","s50-disk49c","s50-disk50c","s50-disk51c","s50-disk52c","s50-disk53c","s50-disk54c","s50-disk55c","s50-disk56c","s50-disk57c","s50-disk58c","s50-disk59c","s50-disk60c"],
+                        "filesystem": "btrfs",
+                        "raid_level": 0
+                    },
+                    "3": {
+                        "disk_array": ["s50-disk0d","s50-disk1d","s50-disk2d","s50-disk3d","s50-disk4d","s50-disk5d","s50-disk6d","s50-disk7d","s50-disk8d","s50-disk9d","s50-disk10d","s50-disk11d","s50-disk12d","s50-disk13d","s50-disk14d","s50-disk15d","s50-disk16d","s50-disk17d","s50-disk18d","s50-disk19d","s50-disk20d","s50-disk21d","s50-disk22d","s50-disk23d","s50-disk24d","s50-disk25d","s50-disk26d","s50-disk27d","s50-disk28d","s50-disk29d","s50-disk30d","s50-disk31d","s50-disk32d","s50-disk33d","s50-disk34d","s50-disk35d","s50-disk36d","s50-disk37d","s50-disk38d","s50-disk39d","s50-disk40d","s50-disk41d","s50-disk42d","s50-disk43d","s50-disk44d","s50-disk45d","s50-disk46d","s50-disk47d","s50-disk48d","s50-disk49d","s50-disk50d","s50-disk51d","s50-disk52d","s50-disk53d","s50-disk54d","s50-disk55d","s50-disk56d","s50-disk57d","s50-disk58d","s50-disk59d","s50-disk60d"],
+                        "filesystem": "btrfs",
+                        "raid_level": 0
+                    }
+                }
+            }
+        }
+    }
+}
